@@ -21,6 +21,8 @@ async function generateContent(event) {
     const randomCat = document.getElementById('random-cat');
     randomCat.src = randomImageUrl;
     catFact.textContent = randomFact;
+
+    content.scrollIntoView();
 }
 
 async function getRandomCatImageUrl(){
