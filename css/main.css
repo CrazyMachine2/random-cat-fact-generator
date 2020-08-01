@@ -105,8 +105,12 @@ footer {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     html,button {
      font-size: 12px;
+    }
+
+    #cat-holder {
+        top: -65.25%
     }
   }
