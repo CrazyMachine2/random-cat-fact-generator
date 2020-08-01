@@ -17,6 +17,11 @@ body {
     background: url("../img/background.png");
     background-repeat: repeat;
     background-size: cover;
+
+}
+
+p {
+    font-weight: bold;
 }
 
 .container {
@@ -31,8 +36,6 @@ body {
     text-align: center;
     margin-top: 3rem;
 }
-
-
 
 button {
     width: 7.5rem;
@@ -99,5 +102,9 @@ footer {
 @media screen and (max-width: 768px) {
     html,button {
      font-size: 16px;
+    }
+
+    body {
+        min-width: 360px;
     }
   }
